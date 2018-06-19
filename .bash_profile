@@ -1,0 +1,6 @@
+alias desktop='cd Desktop'
+alias list='ls -l'
+alias back='cd ..'
+alias home='cd $HOME'
+alias rootb='cd /'
+alias listAlias='ls -l | grep alias .bash_profile'
