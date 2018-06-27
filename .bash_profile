@@ -33,3 +33,20 @@ alias perdir='sudo chmod 755'
 
 //Force to terminate
 alias destroy='kill -9'
+
+//For Debian based GNU/Linux distributions
+
+//Update and upgrade
+alias update='sudo apt-get update && sudo apt-get upgrade'
+
+//Installing from apt
+alias install='sudo apt-get install'
+
+//Installing from package
+alias pki='dpkg -i'
+
+//Pre-installed web server
+alias web='/var/www/html'
+
+//Applications installed by user
+alias ulb='/usr/local/bin'
