@@ -34,6 +34,9 @@ alias perdir='sudo chmod 755'
 //Force to terminate
 alias destroy='kill -9'
 
+//Listing $PATH variable line by line
+alias showpath="echo \$PATH | tr ':' '\n'"
+
 //For Debian based GNU/Linux distributions
 
 //Update and upgrade
